@@ -1,0 +1,33 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  max-width: 300px;
+  margin: 40px auto;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+card-info {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+.descripcion {
+  margin-bottom: 8px;
+  color: gray;
+}
+.precio {
+  font-weight: bold;
+}
+.envio {
+  color: rgb(0, 149, 255);
+}
+.cardBoton {
+  display: flex;
+  align-items: center;
+}
