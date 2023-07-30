@@ -1,10 +1,10 @@
-import Card from "../componentes/Card";
-import Prueba from "../componentes/prueba";
+import CardWrapper from "../componentes/CardWrapper";
+
 export default function Productos() {
   return (
     <>
-      <Prueba />
-      <Card />
+      <h1>página de productos</h1>
+      <CardWrapper />
     </>
   );
 }

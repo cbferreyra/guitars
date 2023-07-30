@@ -1,11 +1,4 @@
-.cardContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .card {
-  display: inline-block;
   max-width: 300px;
   margin: 40px auto;
   color: black;
@@ -26,8 +19,4 @@ card-info {
 }
 .envio {
   color: rgb(0, 149, 255);
-}
-.cardBoton {
-  display: flex;
-  align-items: center;
 }

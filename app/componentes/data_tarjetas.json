@@ -1,34 +1,7 @@
-[
-  {
-    "id": 1,
-    "imagen": "imagenes/gibsonSg.jpg",
-    "titulo": "Gibson SG",
-    "descripcion": "Guitarra Gibson SG 1961",
-    "precio": 1100000,
-    "envio": true
-  },
-  {
-    "id": 2,
-    "imagen": "imagenes/lesPaul.jpg",
-    "titulo": "Gibson Les Paul",
-    "descripcion": "Guitarra Gibson Les Paul 1994",
-    "precio": 2500000,
-    "envio": true
-  },
-  {
-    "id": 3,
-    "imagen": "imagenes/stratocaster.jpg",
-    "titulo": "Fender Stratocaster",
-    "descripcion": "Guitarra Fender Stratocaster 1987",
-    "precio": 1500000,
-    "envio": true
-  },
-  {
-    "id": 4,
-    "imagen": "imagenes/telecaster.jpg",
-    "titulo": "Fender Telecaster",
-    "descripcion": "Gitarra Fender Telecaster 1957",
-    "precio": 900000,
-    "envio": true
-  }
-]
+{
+  "imagen": "imagenes/gibsonSg.jpg",
+  "titulo": "Gibson SG",
+  "descripcion": "Guitarra Gibson SG 1968",
+  "precio": 1100000,
+  "envio": true
+}

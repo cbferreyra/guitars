@@ -1,23 +1,17 @@
-import BotonDetalles from "./botonDetalle";
-import data from "./data_tarjetas.json";
 import "./Card.css";
-export default function Card() {
-  return data.map((item) => (
-    <div className="card" key={item.id}>
-      <img src={item.imagen} alt="" />
-      <div className="card-info">{item.titulo}</div>
-      <p>{item.descripcion}</p>
-      <p>${item.precio}</p>
-      <p>{item.envio}</p>
-      <BotonDetalles />
-    </div>
-  ));
-}
-/* 
-  })
-    }
-  
-  
 
-  
- */
+export default function Card({ producto }) {
+  return (
+    <div className="card">
+      <img src={producto.imagen} alt="" />
+      <div className="card-info-detalles">
+        <h2>{producto.titulo}</h2>
+        <p className="descripcion">{producto.descripcion}</p>
+        <div className="card-info-detalles">
+          <p className="precio">${producto.precio}</p>
+          {producto.envio && <p className="envio">Envio gratis</p>}
+        </div>
+      </div>
+    </div>
+  );
+}
