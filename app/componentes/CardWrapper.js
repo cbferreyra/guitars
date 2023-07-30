@@ -7,7 +7,9 @@ export default function CardWrapper() {
     <div className="wrapper">
       <h2>variedad de guitarras</h2>
       <div className="grilla">
-        <Card producto={data} />
+        {data.map((tarjeta) => (
+          <Card key={tarjeta.id} producto={tarjeta} />
+        ))}
       </div>
     </div>
   );
