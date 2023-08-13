@@ -3,21 +3,37 @@
 import Link from "next/link";
 import data from "../../componentes/data_tarjetas.json";
 
-//import data from "../../componentes/data_tarjetas.json";
-
+import Image from "next/image";
 export default function Detalles({ params }) {
   const parametro = Number(params.id[0]);
   console.log(data);
   console.log(parametro);
-  const VistaProducto = data.find((item) => {
+  let vistaProducto = {};
+  vistaProducto = data.find((item) => {
     return item.id === parametro;
   });
-  console.log(VistaProducto);
+  console.log(vistaProducto);
   return (
     <div>
-      <h3>{params.precio}</h3>
-      <Link href={"../../Productos"}>Volver a galería de guitarras</Link>
-      <p></p>
+      <Link href={"../../Productos"}>Vover a la galería</Link>
+      <Image
+        src={vistaProducto.imagen}
+        width={242}
+        height={500}
+        alt="imagen_guitarra"
+      ></Image>
+      <div className="card-info-detalles">
+        <h2>{vistaProducto.titulo}</h2>
+        <p className="descripcion">{vistaProducto.descripcion}</p>
+        <div className="card-info-detalles">
+          <p className="precio">${vistaProducto.precio}</p>
+          {vistaProducto.envio && <p className="envio">Envio gratis</p>}
+          {/* <button
+            onClick={() => capturarTarjeta(producto)}className="iraDetalles"
+          >Ver detalles
+          </button> */}
+        </div>
+      </div>
     </div>
   );
 }

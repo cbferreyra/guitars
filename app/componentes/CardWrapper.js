@@ -5,7 +5,7 @@ import "./CardWrapper.css";
 export default function CardWrapper() {
   return (
     <div className="wrapper">
-      <h2>variedad de guitarras</h2>
+      <h2>Conocelas y enamorate</h2>
       <div className="grilla">
         {data.map((tarjeta) => (
           <Card key={tarjeta.id} producto={tarjeta} />

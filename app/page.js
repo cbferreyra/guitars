@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Sitio de guitarras </h1>
+      <h1>Tienda de guitarras</h1>
     </main>
   );
 }

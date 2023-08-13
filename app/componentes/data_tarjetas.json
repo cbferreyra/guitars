@@ -1,15 +1,16 @@
 [
   {
     "id": 1,
-    "imagen": "imagenes/gibsonSg.jpg",
+    "imagen": "/imagenes/gibsonSg.jpg",
     "titulo": "Gibson SG",
     "descripcion": "Guitarra Gibson SG 1961",
     "precio": 1100000,
-    "envio": true
+    "envio": true,
+    "informacionTecnica": "Saraza Saraza saraza"
   },
   {
     "id": 2,
-    "imagen": "imagenes/lesPaul.jpg",
+    "imagen": "/imagenes/lesPaul.jpg",
     "titulo": "Gibson Les Paul",
     "descripcion": "Guitarra Gibson Les Paul 1994",
     "precio": 2500000,
@@ -17,7 +18,7 @@
   },
   {
     "id": 3,
-    "imagen": "imagenes/stratocaster.jpg",
+    "imagen": "/imagenes/stratocaster.jpg",
     "titulo": "Fender Stratocaster",
     "descripcion": "Guitarra Fender Stratocaster 1987",
     "precio": 1500000,
@@ -25,7 +26,7 @@
   },
   {
     "id": 4,
-    "imagen": "imagenes/telecaster.jpg",
+    "imagen": "/imagenes/telecaster.jpg",
     "titulo": "Fender Telecaster",
     "descripcion": "Gitarra Fender Telecaster 1957",
     "precio": 900000,
