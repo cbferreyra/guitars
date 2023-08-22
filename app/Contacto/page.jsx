@@ -94,6 +94,8 @@ export default function Contacto() {
 
         <input type="submit" value="Enviar" />
 
+        <input type="hidden" name="formulario" value="contacto" />
+
         {/* <div className="checkAceptacion">
           <input type="checkbox" name="acepta" id="acepta" value="1" /> Acepto
           los terminosycondiciones términos y condiciones
