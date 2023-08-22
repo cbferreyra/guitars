@@ -1,0 +1,14 @@
+.tituloPortada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textoTituloPortada {
+  display: inline-block;
+}
+.imagenPortada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
