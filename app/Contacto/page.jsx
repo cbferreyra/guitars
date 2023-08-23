@@ -1,6 +1,6 @@
 import "./contacto.css";
 
-export default function Contacto() {
+export default function Contactanos() {
   return (
     <>
       <h1>Estás en contacto</h1>
@@ -16,8 +16,8 @@ export default function Contacto() {
 
       {/* Acá duplico mi form para Netlify */}
       <form
-        action="./contacto/gracias"
-        name="contacto"
+        
+        name="contactanos"
         data-netlify="true"
         netlify-honeypot="bot-field"
         hidden
@@ -41,7 +41,7 @@ export default function Contacto() {
           Comentarios:
           <textarea name="comentario"></textarea>
         </label>
-        <input type="hidden" name="form-name" value="contacto" />
+        <input type="hidden" name="form-name" value="contactanos" />
         {/* <input type="submit" value="Enviar" /> */}
         <button type="submit">Enviar</button>
       </form>
