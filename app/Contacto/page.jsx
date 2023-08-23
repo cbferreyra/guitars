@@ -17,7 +17,7 @@ export default function Contactanos() {
       {/* Acá duplico mi form para Netlify */}
       <form
         
-        name="contactanos"
+        name="contactanosahora"
         data-netlify="true"
         netlify-honeypot="bot-field"
         hidden
@@ -41,7 +41,7 @@ export default function Contactanos() {
           Comentarios:
           <textarea name="comentario"></textarea>
         </label>
-        <input type="hidden" name="form-name" value="contactanos" />
+        <input type="hidden" name="form-name" value="contactanosahora" />
         {/* <input type="submit" value="Enviar" /> */}
         <button type="submit">Enviar</button>
       </form>
