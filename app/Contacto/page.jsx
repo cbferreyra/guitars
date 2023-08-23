@@ -17,89 +17,73 @@ export default function Contacto() {
         <input
           className="fieldText"
           type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="Nombre"
+          name="nombre"      
         />
-
         <input
           className="fieldText"
           type="text"
           name="apellido"
-          id="apellido"
-          placeholder="Apellido"
         />
 
         <input
           className="fieldText"
           type="email"
           name="correo"
-          id="correo"
-          placeholder="e-mail"
         />
-
-        <div className="textArea__label"></div>
         <textarea
-          class="textarea"
+          className="textarea"
           name="mensaje"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          placeholder="Escribí aquí tu mensaje"
         ></textarea>
 
-        {/* <div className="checkAceptacion">
-          <input type="checkbox" name="acepta" id="acepta" value="1" /> Acepto
-          los términos y condiciones
-        </div> */}
+      
       </form>
 
       {/* formulario posta */}
-      <form className="contacto__form" name="contacto" method="">
-        <legend class="form__legend">Contacto</legend>
-
+      
+      <form  name="contacto" method="post" className="contacto__form">
+        <label>
+          Nombre:
         <input
           className="fieldText"
           type="text"
           name="nombre"
-          id="nombre"
-          placeholder="Nombre"
         />
-
-        <input
+        </label>
+        
+        <label>
+         Apellido 
+         <input
           className="fieldText"
           type="text"
           name="apellido"
-          id="apellido"
-          placeholder="Apellido"
         />
 
-        <input
+         </label>
+        
+         <label>
+          Mail
+          <input
           className="fieldText"
           type="email"
           name="correo"
-          id="correo"
-          placeholder="e-mail"
-        />
+         />
 
-        <div className="textArea__label"></div>
-        <textarea
-          class="textarea"
+
+         </label>
+<label>
+  Comentario
+  <textarea
+          className="textarea"
           name="mensaje"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          placeholder="Escribí aquí tu mensaje"
         ></textarea>
+  
+  </label>            
+        
+  <input type="hidden" name="formulario" value="contacto" />
+        <button type="submit">Enviar</button>
 
-        <input type="submit" value="Enviar" />
-
-        <input type="hidden" name="formulario" value="contacto" />
-
-        {/* <div className="checkAceptacion">
-          <input type="checkbox" name="acepta" id="acepta" value="1" /> Acepto
-          los terminosycondiciones términos y condiciones
-        </div> */}
+        
+      
       </form>
     </div>
   );
