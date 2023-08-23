@@ -6,7 +6,7 @@ export default function Contacto() {
       <div>
         <h1 className="tituloContacto">Contactanos</h1>
       </div>
-      {/* formulario para Netlify */}
+      {/* formulario para Netlify otro intento */}
 
       <form
         name="contacto"
