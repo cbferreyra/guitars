@@ -47,15 +47,11 @@ export default function Contacto() {
           rows="10"
           placeholder="Escribí aquí tu mensaje"
         ></textarea>
-
-        {/* <div className="checkAceptacion">
-          <input type="checkbox" name="acepta" id="acepta" value="1" /> Acepto
-          los términos y condiciones
-        </div> */}
       </form>
 
       {/* formulario posta */}
-      <form className="contacto__form" name="contacto" method="">
+
+      <form method="post" className="contacto__form">
         <legend class="form__legend">Contacto</legend>
 
         <input
@@ -82,7 +78,6 @@ export default function Contacto() {
           placeholder="e-mail"
         />
 
-        <div className="textArea__label"></div>
         <textarea
           class="textarea"
           name="mensaje"
