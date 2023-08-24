@@ -15,15 +15,13 @@ export default function Contacto() {
         hidden
       >
         <input
-          className="fieldText"
+          /*  className="fieldText" */
           type="text"
           name="nombre"
-          id="nombre"
-          placeholder="Nombre"
         />
 
         <input
-          className="fieldText"
+          /*  */ className="fieldText"
           type="text"
           name="apellido"
           id="apellido"
@@ -38,15 +36,7 @@ export default function Contacto() {
           placeholder="e-mail"
         />
 
-        <div className="textArea__label"></div>
-        <textarea
-          class="textarea"
-          name="mensaje"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          placeholder="Escribí aquí tu mensaje"
-        ></textarea>
+        <textarea class="textarea" name="mensaje"></textarea>
       </form>
 
       {/* formulario posta */}
@@ -77,24 +67,12 @@ export default function Contacto() {
           id="correo"
           placeholder="e-mail"
         />
+        <label>
+          <textarea name="comentario"></textarea>
+        </label>
 
-        <textarea
-          class="textarea"
-          name="mensaje"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          placeholder="Escribí aquí tu mensaje"
-        ></textarea>
-
-        <input type="submit" value="Enviar" />
-
-        <input type="hidden" name="formulario" value="contacto" />
-
-        {/* <div className="checkAceptacion">
-          <input type="checkbox" name="acepta" id="acepta" value="1" /> Acepto
-          los terminosycondiciones términos y condiciones
-        </div> */}
+        <input type="hidden" name="form name" value="contacto" />
+        <button type="submit">Enviar"</button>
       </form>
     </div>
   );
