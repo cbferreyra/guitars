@@ -20,22 +20,28 @@ export default function Contacto() {
       </form>
 
       <form method="post" className="formulario">
-        <label>
-          Nombre:
-          <input type="text" name="nombre" />
-        </label>
-        <label>
-          Mail:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Comentarios:
-          <textarea name="comentario"></textarea>
-        </label>
 
+        <div className="itemsFormulario">
+          
+        <label for="nombre">Nombre:</label>
+          
+          <input type="text" name="nombre" />
+       
+        <label for= "email"> Mail:</label>
+          
+          <input type="email" name="email" />
+        
+        <label for="comentario">Comentarios:</label>
+          
+          <textarea name="comentario"></textarea>
+       
         <input type="hidden" name="form-name" value="contacto" />
 
         <button type="submit">Enviar"</button>
+
+
+        </div>
+        
       </form>
     </div>
   );
