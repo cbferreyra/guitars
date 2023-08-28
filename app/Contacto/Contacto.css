@@ -1,3 +1,8 @@
+
+.tituloContacto{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .contenedorContacto {
   min-height: 100vh;
   display: flex;
@@ -6,16 +11,33 @@
   justify-content: center;
 }
 form{
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 50px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
    border-radius: 10px;
    text-align: center;
    width: 400px;
+   box-sizing: border-box;
 }
 .itemsFormulario{
 display: flex;
 flex-direction: column ;
+align-items: center;
 }
 label{
+  font-size: 15px;
   margin-bottom: 10px;
+}
+input,textarea{
+  width: 90%;
+  box-sizing: border-box;
+padding: 10px 10px ;
+/* border-radius: 5px; */
+margin-bottom: 20px;
+border: 1px solid rgb(rgb(224, 208, 208), green, blue)
+; 
+}
+.botonFormulario{
+width: 50px;  
 }

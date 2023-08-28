@@ -22,22 +22,22 @@ export default function Contacto() {
       <form method="post" className="formulario">
 
         <div className="itemsFormulario">
-          
-        <label for="nombre">Nombre:</label>
+
+        <label for="nombre">Nombre</label>
           
           <input type="text" name="nombre" />
        
-        <label for= "email"> Mail:</label>
+        <label for= "email"> Mail</label>
           
           <input type="email" name="email" />
         
-        <label for="comentario">Comentarios:</label>
+        <label for="comentario">Mensaje</label>
           
-          <textarea name="comentario"></textarea>
+          <textarea name="comentario" rows={"10"}></textarea>
        
         <input type="hidden" name="form-name" value="contacto" />
 
-        <button type="submit">Enviar"</button>
+        <button className="botonFormulario" type="submit">Enviar</button>
 
 
         </div>
